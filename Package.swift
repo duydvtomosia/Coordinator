@@ -11,10 +11,10 @@ let package = Package(
         .watchOS(.v6)
     ],
     products: [
-        .library(name: "Coordinator", targets: ["Coordinator"])
+        .library(name: "Coordinator", targets: ["Coordinator"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/tomosia-phuongvo/Merge.git", branch: "master"),
+        .package(url: "https://github.com/duydvtomosia/Merge.git", branch: "fix_swallow"),
         .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", exact: Version("0.1.5")),
     ],
     targets: [
