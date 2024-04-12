@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "Coordinator", targets: ["Coordinator"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/duydvtomosia/Merge.git", branch: "fix_swallow"),
+        .package(url: "https://github.com/duydvtomosia/Merge.git", branch: "master"),
         .package(url: "https://github.com/SwiftUIX/SwiftUIX.git", exact: Version("0.1.5")),
     ],
     targets: [
